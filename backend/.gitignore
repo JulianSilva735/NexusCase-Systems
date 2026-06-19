@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Database / uploads
+*.sqlite
+*.sqlite3
+dev.sqlite
+uploads/
+
+# Logs
+*.log
+
+# Compiled output leaked into src/ (evita que vuelva a pasar)
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+*.tsbuildinfo

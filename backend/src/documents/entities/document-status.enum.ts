@@ -1,0 +1,13 @@
+export enum DocumentStatus {
+    PENDING = 'PENDING',
+    UPLOADED = 'UPLOADED',
+    APPROVED = 'APPROVED',
+    REJECTED = 'REJECTED',
+}
+
+export enum DocumentType {
+  ID_CARD = 'CEDULA_CIUDADANIA',
+  PROOF_OF_ADDRESS = 'RECIBO_PUBLICO',
+  SURVEY_CONSENT = 'CONSENTIMIENTO_ENCUESTA',
+  OTHER = 'OTRO',
+}
